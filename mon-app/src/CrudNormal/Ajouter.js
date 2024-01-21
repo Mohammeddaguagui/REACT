@@ -5,6 +5,7 @@ function Ajouter(props) {
   const handelChange = (e) => {
     const { name, value } = e.target
     setItem({ ...item, [name]: value })
+    
   }
   
 

@@ -5,7 +5,7 @@ import './index.css';
 //import reducer from "./crudreduxnadi/Reducer"
 import reducer from "./searchRedux/store"
 import { Provider } from 'react-redux';
-import App from './CrudNormal/App';
+import App from './searchRedux/App';
 import reportWebVitals from './reportWebVitals';
 import {  legacy_createStore as createStore  } from 'redux';
 const root = ReactDOM.createRoot(document.getElementById('root'));

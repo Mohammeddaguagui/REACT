@@ -14,6 +14,7 @@ export default function App() {
     const add = (item) => {
         item.id = user.length + 1
         setUser([...user, item])
+        
     }
 
     const Delet = (id) => {
